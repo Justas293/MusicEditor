@@ -18,7 +18,7 @@ namespace MusicEditor
         public event EventHandler<StreamEventArgs> FileLoaded;
         public enum ReplaceExistingFile {YES = 1, NO = 0 };
 
-        Stream stream; //git test
+        Stream stream; //git test asdasdasdasd
         
         public FileStreamer(){ }
 
