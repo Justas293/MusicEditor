@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="F2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="F2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 370</value>
+  </data>
+  <data name="F2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="F2key.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;F2key.Name" xml:space="preserve">
+    <value>F2key</value>
+  </data>
+  <data name="&gt;&gt;F2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F2key.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="G2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="G2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="G2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 370</value>
+  </data>
+  <data name="G2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="G2key.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;G2key.Name" xml:space="preserve">
+    <value>G2key</value>
+  </data>
+  <data name="&gt;&gt;G2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G2key.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="A2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="A2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="A2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 370</value>
+  </data>
+  <data name="A2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="A2key.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;A2key.Name" xml:space="preserve">
+    <value>A2key</value>
+  </data>
+  <data name="&gt;&gt;A2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A2key.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="B2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="B2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 370</value>
+  </data>
+  <data name="B2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="B2key.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B2key.Name" xml:space="preserve">
+    <value>B2key</value>
+  </data>
+  <data name="&gt;&gt;B2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B2key.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="C3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="C3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="C3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 370</value>
+  </data>
+  <data name="C3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="C3key.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;C3key.Name" xml:space="preserve">
+    <value>C3key</value>
+  </data>
+  <data name="&gt;&gt;C3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C3key.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="D3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="D3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="D3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 370</value>
+  </data>
+  <data name="D3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="D3key.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;D3key.Name" xml:space="preserve">
+    <value>D3key</value>
+  </data>
+  <data name="&gt;&gt;D3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D3key.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="E3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="E3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="E3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 370</value>
+  </data>
+  <data name="E3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="E3key.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;E3key.Name" xml:space="preserve">
+    <value>E3key</value>
+  </data>
+  <data name="&gt;&gt;E3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E3key.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="F3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="F3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 370</value>
+  </data>
+  <data name="F3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="F3key.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;F3key.Name" xml:space="preserve">
+    <value>F3key</value>
+  </data>
+  <data name="&gt;&gt;F3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F3key.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="G3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="G3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="G3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 370</value>
+  </data>
+  <data name="G3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="G3key.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;G3key.Name" xml:space="preserve">
+    <value>G3key</value>
+  </data>
+  <data name="&gt;&gt;G3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G3key.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="A3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="A3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="A3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 370</value>
+  </data>
+  <data name="A3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="A3key.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;A3key.Name" xml:space="preserve">
+    <value>A3key</value>
+  </data>
+  <data name="&gt;&gt;A3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A3key.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="B3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="B3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 370</value>
+  </data>
+  <data name="B3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="B3key.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;B3key.Name" xml:space="preserve">
+    <value>B3key</value>
+  </data>
+  <data name="&gt;&gt;B3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B3key.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="C4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="C4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="C4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 370</value>
+  </data>
+  <data name="C4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="C4key.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;C4key.Name" xml:space="preserve">
+    <value>C4key</value>
+  </data>
+  <data name="&gt;&gt;C4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C4key.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="D4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="D4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="D4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 370</value>
+  </data>
+  <data name="D4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="D4key.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;D4key.Name" xml:space="preserve">
+    <value>D4key</value>
+  </data>
+  <data name="&gt;&gt;D4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D4key.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="E4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="E4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="E4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 370</value>
+  </data>
+  <data name="E4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="E4key.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;E4key.Name" xml:space="preserve">
+    <value>E4key</value>
+  </data>
+  <data name="&gt;&gt;E4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E4key.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="F4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="F4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 370</value>
+  </data>
+  <data name="F4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="F4key.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;F4key.Name" xml:space="preserve">
+    <value>F4key</value>
+  </data>
+  <data name="&gt;&gt;F4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F4key.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="G4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="G4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="G4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 370</value>
+  </data>
+  <data name="G4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="G4key.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;G4key.Name" xml:space="preserve">
+    <value>G4key</value>
+  </data>
+  <data name="&gt;&gt;G4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G4key.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="A4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="A4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="A4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 370</value>
+  </data>
+  <data name="A4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="A4key.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;A4key.Name" xml:space="preserve">
+    <value>A4key</value>
+  </data>
+  <data name="&gt;&gt;A4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A4key.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="B4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="B4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 370</value>
+  </data>
+  <data name="B4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 190</value>
+  </data>
+  <data name="B4key.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;B4key.Name" xml:space="preserve">
+    <value>B4key</value>
+  </data>
+  <data name="&gt;&gt;B4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B4key.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Gb2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Gb2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Gb2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 370</value>
+  </data>
+  <data name="Gb2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Gb2key.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Gb2key.Name" xml:space="preserve">
+    <value>Gb2key</value>
+  </data>
+  <data name="&gt;&gt;Gb2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gb2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gb2key.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Ab2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Ab2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Ab2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 370</value>
+  </data>
+  <data name="Ab2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Ab2key.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Ab2key.Name" xml:space="preserve">
+    <value>Ab2key</value>
+  </data>
+  <data name="&gt;&gt;Ab2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ab2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ab2key.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Bb2key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Bb2key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Bb2key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 370</value>
+  </data>
+  <data name="Bb2key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Bb2key.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Bb2key.Name" xml:space="preserve">
+    <value>Bb2key</value>
+  </data>
+  <data name="&gt;&gt;Bb2key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bb2key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Bb2key.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Db3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Db3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Db3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 370</value>
+  </data>
+  <data name="Db3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Db3key.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Db3key.Name" xml:space="preserve">
+    <value>Db3key</value>
+  </data>
+  <data name="&gt;&gt;Db3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Db3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Db3key.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Eb3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Eb3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Eb3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 370</value>
+  </data>
+  <data name="Eb3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Eb3key.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Eb3key.Name" xml:space="preserve">
+    <value>Eb3key</value>
+  </data>
+  <data name="&gt;&gt;Eb3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Eb3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Eb3key.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Gb3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Gb3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Gb3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 370</value>
+  </data>
+  <data name="Gb3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Gb3key.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Gb3key.Name" xml:space="preserve">
+    <value>Gb3key</value>
+  </data>
+  <data name="&gt;&gt;Gb3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gb3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gb3key.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Ab3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Ab3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Ab3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 370</value>
+  </data>
+  <data name="Ab3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Ab3key.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Ab3key.Name" xml:space="preserve">
+    <value>Ab3key</value>
+  </data>
+  <data name="&gt;&gt;Ab3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ab3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ab3key.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Bb3key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Bb3key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Bb3key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 370</value>
+  </data>
+  <data name="Bb3key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Bb3key.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Bb3key.Name" xml:space="preserve">
+    <value>Bb3key</value>
+  </data>
+  <data name="&gt;&gt;Bb3key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bb3key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Bb3key.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Db4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Db4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Db4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 370</value>
+  </data>
+  <data name="Db4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Db4key.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Db4key.Name" xml:space="preserve">
+    <value>Db4key</value>
+  </data>
+  <data name="&gt;&gt;Db4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Db4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Db4key.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Eb4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Eb4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Eb4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 370</value>
+  </data>
+  <data name="Eb4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Eb4key.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Eb4key.Name" xml:space="preserve">
+    <value>Eb4key</value>
+  </data>
+  <data name="&gt;&gt;Eb4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Eb4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Eb4key.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Gb4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Gb4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Gb4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 370</value>
+  </data>
+  <data name="Gb4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Gb4key.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Gb4key.Name" xml:space="preserve">
+    <value>Gb4key</value>
+  </data>
+  <data name="&gt;&gt;Gb4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gb4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gb4key.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Ab4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Ab4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Ab4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 370</value>
+  </data>
+  <data name="Ab4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Ab4key.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Ab4key.Name" xml:space="preserve">
+    <value>Ab4key</value>
+  </data>
+  <data name="&gt;&gt;Ab4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ab4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ab4key.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Bb4key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Bb4key.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Bb4key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 370</value>
+  </data>
+  <data name="Bb4key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 110</value>
+  </data>
+  <data name="Bb4key.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;Bb4key.Name" xml:space="preserve">
+    <value>Bb4key</value>
+  </data>
+  <data name="&gt;&gt;Bb4key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bb4key.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Bb4key.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Playbutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Playbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 579</value>
+  </data>
+  <data name="Playbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="Playbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Playbutton.Text" xml:space="preserve">
+    <value>Play song</value>
+  </data>
+  <data name="&gt;&gt;Playbutton.Name" xml:space="preserve">
+    <value>Playbutton</value>
+  </data>
+  <data name="&gt;&gt;Playbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Playbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Playbutton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="newSongbutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="newSongbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>569, 579</value>
+  </data>
+  <data name="newSongbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 37</value>
+  </data>
+  <data name="newSongbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="newSongbutton.Text" xml:space="preserve">
+    <value>New song</value>
+  </data>
+  <data name="&gt;&gt;newSongbutton.Name" xml:space="preserve">
+    <value>newSongbutton</value>
+  </data>
+  <data name="&gt;&gt;newSongbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newSongbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;newSongbutton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="stopPlayingbutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="stopPlayingbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 580</value>
+  </data>
+  <data name="stopPlayingbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 36</value>
+  </data>
+  <data name="stopPlayingbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="stopPlayingbutton.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;stopPlayingbutton.Name" xml:space="preserve">
+    <value>stopPlayingbutton</value>
+  </data>
+  <data name="&gt;&gt;stopPlayingbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stopPlayingbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;stopPlayingbutton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="incipitViewer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="incipitViewer1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="incipitViewer1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="incipitViewer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 146</value>
+  </data>
+  <data name="incipitViewer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 94</value>
+  </data>
+  <data name="incipitViewer1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer1.Name" xml:space="preserve">
+    <value>incipitViewer1</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer1.Type" xml:space="preserve">
+    <value>PSAMControlLibrary.IncipitViewer, PSAMControlLibrary, Version=2.1.0.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="undoButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="undoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 579</value>
+  </data>
+  <data name="undoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 37</value>
+  </data>
+  <data name="undoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="undoButton.Text" xml:space="preserve">
+    <value>Clear last note</value>
+  </data>
+  <data name="&gt;&gt;undoButton.Name" xml:space="preserve">
+    <value>undoButton</value>
+  </data>
+  <data name="&gt;&gt;undoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;undoButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;undoButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="incipitViewer2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="incipitViewer2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="incipitViewer2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="incipitViewer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 234</value>
+  </data>
+  <data name="incipitViewer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 93</value>
+  </data>
+  <data name="incipitViewer2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer2.Name" xml:space="preserve">
+    <value>incipitViewer2</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer2.Type" xml:space="preserve">
+    <value>PSAMControlLibrary.IncipitViewer, PSAMControlLibrary, Version=2.1.0.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;incipitViewer2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mistral, 72pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 114</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>MUSIC EDITOR</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Savebutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Savebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 579</value>
+  </data>
+  <data name="Savebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="Savebutton.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Savebutton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;Savebutton.Name" xml:space="preserve">
+    <value>Savebutton</value>
+  </data>
+  <data name="&gt;&gt;Savebutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Savebutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Savebutton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Loadbutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Loadbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 579</value>
+  </data>
+  <data name="Loadbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 35</value>
+  </data>
+  <data name="Loadbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Loadbutton.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="&gt;&gt;Loadbutton.Name" xml:space="preserve">
+    <value>Loadbutton</value>
+  </data>
+  <data name="&gt;&gt;Loadbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Loadbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Loadbutton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Printbutton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Printbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 628</value>
+  </data>
+  <data name="Printbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 35</value>
+  </data>
+  <data name="Printbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Printbutton.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;Printbutton.Name" xml:space="preserve">
+    <value>Printbutton</value>
+  </data>
+  <data name="&gt;&gt;Printbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Printbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Printbutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="setDirectoryButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="setDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 579</value>
+  </data>
+  <data name="setDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 35</value>
+  </data>
+  <data name="setDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="setDirectoryButton.Text" xml:space="preserve">
+    <value>Set directory...</value>
+  </data>
+  <data name="&gt;&gt;setDirectoryButton.Name" xml:space="preserve">
+    <value>setDirectoryButton</value>
+  </data>
+  <data name="&gt;&gt;setDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setDirectoryButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;setDirectoryButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 625</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 38</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Set background color...</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>909, 741</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Music Editor</value>
+  </data>
+  <data name="&gt;&gt;printDocument1.Name" xml:space="preserve">
+    <value>printDocument1</value>
+  </data>
+  <data name="&gt;&gt;printDocument1.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PianoForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
